@@ -58,3 +58,9 @@ git status
 git add .
 git commit -m "refactor & add dataprocess class"
 exit() exit()
+git status
+git add .
+git commit -m "add ERC20 datasets"
+exit
+exi
+exit
