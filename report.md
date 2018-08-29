@@ -1,6 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
-Edward Ward
+Edward Ward 
+
 August 31st, 2018
 
 ## I. Definition
