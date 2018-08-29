@@ -8,6 +8,9 @@ August 31st, 2018
 _(approx. 1-2 pages)_
 
 ### Project Overview
+
+This project aims to use Machine Learning to determine an asset allocation of cryptocurrency assets that aims to optimise returns. Given that consistency of data is an issue with cryptocurrencies only assets based on the Ethereum Blockchain (ERC20 tokens) will be used in the analysis since they all share comparable metrics. Ether (the native currecncy of the Ethereum blockchain) will be used as a base asset since all ERC20 tokens have trading pairs with Ether and therefore can easily be traded. Crypto assets are highly correlated in usd terms, using Ether as a base asset insulates any analysis from the wild volatitity in USD terms, any algorithm would have a much harder given the noise of changes in USD.     
+
 In this section, look to provide a high-level overview of the project in layman’s terms. Questions to ask yourself when writing this section:
 - _Has an overview of the project been provided, such as the problem domain, project origin, and related datasets or input data?_
 - _Has enough background information been given so that an uninformed reader would understand the problem domain and following problem statement?_
