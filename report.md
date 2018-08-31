@@ -15,15 +15,15 @@ This project aims to use Machine Learning to determine an asset allocation of cr
 
 Crypto assets have very good price data avaliable however more detailed & rich data about other factors is harder to find. I will primairly use https://coinmetrics.io/data-downloads/ as a data source. For each asset there is daily information on:
 
-date
-txVolume(USD): this refers to the usd value of on-chain transactions that occured
-txCount: this refers to the number of on-chain transactions that occured
-marketcap(USD): total marketcap of the asset (no. of tokens * price0
-price(USD): price in usd
-exchangeVolume(USD): volume of transactions accross all exchanges measured
-activeAddresses: number of addresses that have interacted with the token (on-chain)
-medianTxValue(USD): median transaction value (on-chain)
-Asset: The name of the Asset
+* date
+* txVolume(USD): this refers to the usd value of on-chain transactions that occured
+* txCount: this refers to the number of on-chain transactions that occured
+* marketcap(USD): total marketcap of the asset (no. of tokens * price0
+* price(USD): price in usd
+* exchangeVolume(USD): volume of transactions accross all exchanges measured
+* activeAddresses: number of addresses that have interacted with the token (on-chain)
+* medianTxValue(USD): median transaction value (on-chain)
+* Asset: The name of the Asset
 
 The model will attempt to establish the probability of each asset performing well or poorly agaisnt the base asset for a given period.
 
