@@ -11,7 +11,21 @@ _(approx. 1-2 pages)_
 
 CryptoCurrency is a form of digital asset that operates in a 24hr, 7 day a week market. It has proven to be a highly volatile market with daily swings of >10% not uncommon. Given the nature of cryptocurrencies living natively on the internet there is a significant amount of open quantitative data avaliable to analyze. Many people have attempted to value crypto assets with fundamental models however due to their speculative nature it is extremely subjective. I believe Machine Learning may prove to be a strong method of estimating short term future cryptocurrency prices.
 
-This project aims to use Machine Learning to determine an asset allocation of cryptocurrency assets that aims to optimise returns. Given that consistency of data is an issue with cryptocurrencies only assets based on the Ethereum Blockchain (ERC20 tokens) will be used in the analysis since they all share comparable metrics. Ether (the native currecncy of the Ethereum blockchain) will be used as a base asset since all ERC20 tokens have trading pairs with Ether and therefore can easily be traded. Crypto assets are highly correlated in usd terms, using Ether as a base asset insulates any analysis from the wild volatitity in USD terms, any algorithm would have a much harder given the noise of changes in USD.     
+This project aims to use Machine Learning to determine an asset allocation of cryptocurrency assets that aims to optimise returns. Given that consistency of data is an issue with cryptocurrencies only assets based on the Ethereum Blockchain (ERC20 tokens) will be used in the analysis since they all share comparable metrics. Ether (the native currecncy of the Ethereum blockchain) will be used as a base asset since all ERC20 tokens have trading pairs with Ether and therefore can easily be traded. Crypto assets are highly correlated in usd terms, using Ether as a base asset insulates any analysis from the wild volatitity in USD terms, any algorithm would have a much harder given the noise of changes in USD.  
+
+Crypto assets have very good price data avaliable however more detailed & rich data about other factors is harder to find. I will primairly use https://coinmetrics.io/data-downloads/ as a data source. For each asset there is daily information on:
+
+date
+txVolume(USD): this refers to the usd value of on-chain transactions that occured
+txCount: this refers to the number of on-chain transactions that occured
+marketcap(USD): total marketcap of the asset (no. of tokens * price0
+price(USD): price in usd
+exchangeVolume(USD): volume of transactions accross all exchanges measured
+activeAddresses: number of addresses that have interacted with the token (on-chain)
+medianTxValue(USD): median transaction value (on-chain)
+Asset: The name of the Asset
+
+The model will attempt to establish the probability of each asset performing well or poorly agaisnt the base asset for a given period.
 
 In this section, look to provide a high-level overview of the project in layman’s terms. Questions to ask yourself when writing this section:
 - _Has an overview of the project been provided, such as the problem domain, project origin, and related datasets or input data?_
