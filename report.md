@@ -32,6 +32,9 @@ In this section, look to provide a high-level overview of the project in laymanâ
 - _Has enough background information been given so that an uninformed reader would understand the problem domain and following problem statement?_
 
 ### Problem Statement
+
+There are many crypto-assets one can purchase at any given time. This project aims to predict whether a crypto asset will increase or decrease in price relative to a chosen base asset (e.g. Bitcoin, Ethereum or USD) in the next time period. This can be used as an asset selection mechanism, an allocation of assets can be selected each trading period (24hrs), if the allocation performs better than the base asset that can be considered a succesful period however the model must be evaluated holistically since a 10 small daily gains can be wiped out by one large loss. The performance of the model should be continually evaluted over each period moving forward into the future to watch for any significant changes.
+
 In this section, you will want to clearly define the problem that you are trying to solve, including the strategy (outline of tasks) you will use to achieve the desired solution. You should also thoroughly discuss what the intended solution will be for this problem. Questions to ask yourself when writing this section:
 - _Is the problem statement clearly defined? Will the reader understand what you are expecting to solve?_
 - _Have you thoroughly discussed how you will attempt to solve the problem?_
